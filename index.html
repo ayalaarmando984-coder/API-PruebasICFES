@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Ranking ICFES por Municipio (departamento Risaralda)</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!-- Ranking ICFES por Municipio - Colombia -->
+
+<div class="container">
+
+  <header>
+    <h1>Ranking ICFES por Municipio</h1>
+    <p>Clasificación de instituciones educativas - Risaralda</p>
+  </header>
+
+  <div class="controls">
+    <label for="year-select">Selecciona un año:</label>
+    <select id="year-select">
+      <option value="">-- Elige un año --</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+    </select>
+    <button id="btn-consultar" onclick="consultarDatos()">
+      Consultar
+    </button>
+  </div>
+
+  <div id="mensaje"></div>
+
+  <div id="resultados"></div>
+
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
